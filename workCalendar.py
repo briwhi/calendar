@@ -2,14 +2,18 @@ import calendar
 import datetime
 
 class WorkCalendar:
-    def __init__(self, 
-    year=datetime.datetime.now().year,
-    month=datetime.datetime.now().month):
-        self.year = year
-        self.month = month
+    
+    def __init__(self):
+        self.year = datetime.datetime.now().year
+        self.month = datetime.datetime.now().month
+        self.start_date = datetime.datetime.now()
 
-        
-c = WorkCalendar(month=6)
-print(c.month)
+    
+
+    
+    
+class Shift:
+    pass
+
 
 
